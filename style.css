@@ -1,0 +1,159 @@
+/* ==UserStyle==
+@name         Portainer Night Sky Theme
+@description  Alternative Dark Theme for Portainer
+@namespace    github.com/Teraskull/portainer-night-sky-theme
+@homepageURL  https://github.com/Teraskull/portainer-night-sky-theme/
+@supportURL   https://github.com/Teraskull/portainer-night-sky-theme/issues
+@updateURL    https://raw.githubusercontent.com/
+@author       Teraskull
+@version      1.0.0
+@preprocessor stylus
+==/UserStyle== */
+
+/* Change the following domain to match your Portainer URL: */
+@-moz-document domain("portainer.local") {
+    @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+    body {
+        font-family: Work Sans;
+    }
+
+    html {
+        --grey-1: #292D3E;
+        --grey-2: #1F2330;
+        --grey-3: #383D51;
+        --grey-4: #4C5374;
+        --grey-8: #929ac9;
+        --grey-38: #383D51;
+        --grey-54: #383D51;
+    }
+
+    .label-success {
+        color: #5cb85c;
+        background-color: rgba(92, 184, 92, 0.2);
+    }
+
+    .label-warning {
+        color: #f0ad4e;
+        background-color: rgba(240, 173, 78, 0.2);
+    }
+
+    .label-danger {
+        color: #d9534f;
+        background-color: rgba(217, 83, 79, 0.2);
+    }
+
+    .label-info {
+        color: #5bc0de;
+        background-color: rgba(91, 192, 222, 0.2);
+    }
+
+    .label-primary {
+        color: #337ab7;
+        background-color: rgba(51, 122, 183, 0.2);
+    }
+
+    .datatable .actionBar {
+        color: var(--grey-8);
+    }
+
+    .widget .widget-body table thead th .table-filter {
+        color: var(--grey-8);
+    }
+
+    .tableMenu {
+        color: var(--grey-8);
+    }
+
+    .tableMenu .menuContent {
+        border-bottom: 1px solid var(--grey-3);
+    }
+
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+        color: var(--grey-8);
+        text-decoration: none;
+        background-color: var(--grey-3);
+    }
+
+    hr {
+        border-top: 1px solid var(--grey-3);
+    }
+
+    .btn-primary {
+        background-color: rgba(51, 122, 183, 0.5);
+        border-color: #2e6da4;
+    }
+
+    .btn-primary:hover {
+        background-color: rgba(51, 122, 183, 0.3);
+        border-color: #2e6da4;
+    }
+
+    .btn-primary.focus, .btn-primary:focus {
+        background-color: rgba(51, 122, 183, 0.6);
+    }
+
+    .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+        background-color: rgba(51, 122, 183, 0.9);
+    }
+
+    .btn-success {
+        background-color: rgba(92, 184, 92, 0.5);
+        border-color: #4cae4c;
+    }
+
+    .btn-success:hover {
+        background-color: rgba(92, 184, 92, 0.3);
+        border-color: #4cae4c;
+    }
+
+    .btn-success.focus, .btn-success:focus {
+        background-color: rgba(92, 184, 92, 0.6);
+    }
+
+    .btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+        background-color: rgba(92, 184, 92, 0.9);
+    }
+
+    .btn-danger {
+        background-color: rgba(217, 83, 79, 0.5);
+        border-color: #d43f3a;
+    }
+
+    .btn-danger:hover {
+        background-color: rgba(217, 83, 79, 0.3);
+        border-color: #d43f3a;
+    }
+
+    .btn-danger.focus, .btn-danger:focus {
+        background-color: rgba(217, 83, 79, 0.6);
+    }
+
+    .btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
+        background-color: rgba(217, 83, 79, 0.9);
+    }
+
+    .fa-search:before {
+        color: rgba(146, 154, 201, 0.6);
+    }
+
+    ::-webkit-input-placeholder {
+        color: rgba(146, 154, 201, 0.6);
+    }
+
+    ::-moz-placeholder {
+        color: rgba(146, 154, 201, 0.6);
+    }
+
+    :-ms-input-placeholder {
+        color: rgba(146, 154, 201, 0.6);
+    }
+
+    ::-ms-input-placeholder {
+        color: rgba(146, 154, 201, 0.6);
+    }
+
+    ::placeholder {
+        color: rgba(146, 154, 201, 0.6);
+    }
+}
