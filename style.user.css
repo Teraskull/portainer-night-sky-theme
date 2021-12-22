@@ -148,26 +148,26 @@ Example: url("http://my-server.local:8080/") */
     }
 
     .fa-search:before {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 
     ::-webkit-input-placeholder {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 
     ::-moz-placeholder {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 
     :-ms-input-placeholder {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 
     ::-ms-input-placeholder {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 
     ::placeholder {
-        color: rgba(146, 154, 201, 0.6);
+        color: rgba(146, 154, 201, 0.6) !important;
     }
 }
