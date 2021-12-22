@@ -140,6 +140,12 @@ Example: url("http://my-server.local:8080/") */
     .btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
         background-color: rgba(217, 83, 79, 0.9);
     }
+    
+    @media screen and (max-width: 767px) {
+        .table-responsive {
+            border: none;
+        }
+    }
 
     .fa-search:before {
         color: rgba(146, 154, 201, 0.6);
