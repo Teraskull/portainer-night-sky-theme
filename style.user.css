@@ -21,6 +21,7 @@ Example: url("http://my-server.local:8080/") */
     }
 
     html {
+        --white-color: #dee0ee;
         --grey-1: #292D3E;
         --grey-2: #1F2330;
         --grey-3: #383D51;
