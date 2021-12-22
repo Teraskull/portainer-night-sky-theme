@@ -4,13 +4,15 @@
 @namespace    github.com/Teraskull/portainer-night-sky-theme
 @homepageURL  https://github.com/Teraskull/portainer-night-sky-theme/
 @supportURL   https://github.com/Teraskull/portainer-night-sky-theme/issues
-@updateURL    https://cdn.jsdelivr.net/gh/Teraskull/portainer-night-sky-theme@master/style.user.css
+@updateURL    https://github.com/Teraskull/portainer-night-sky-theme/raw/master/style.user.css
 @author       Teraskull
 @version      1.0.0
 @preprocessor stylus
 ==/UserStyle== */
 
-/* Change the following domain to match your Portainer URL: */
+/* Change the following domain to match your Portainer URL.
+If your Portainer is running on a different port, use `url` instead of `domain`.
+Example: url("http://my-server.local:8080/") */
 @-moz-document domain("portainer.local") {
     @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
 
