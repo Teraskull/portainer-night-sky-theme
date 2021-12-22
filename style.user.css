@@ -27,6 +27,7 @@ Example: url("http://my-server.local:8080/") */
         --grey-4: #4C5374;
         --grey-8: #929ac9;
         --grey-38: #383D51;
+        --grey-53: rgba(146, 154, 201, 0.2);
         --grey-54: #383D51;
     }
 
