@@ -87,6 +87,12 @@ Example: url("http://my-server.local:8080/") */
     hr {
         border-top: 1px solid var(--grey-3);
     }
+    
+    :root[theme=dark] .bootbox-checkbox-list {
+        background-color: var(--grey-2);
+        border: 1px solid var(--grey-3);
+        padding: 0 1em;
+    }
 
     .btn-primary {
         background-color: rgba(51, 122, 183, 0.5);
