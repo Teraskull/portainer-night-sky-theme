@@ -10,10 +10,8 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-/* Change the following domain to match your Portainer URL.
-If your Portainer is running on a different port, use `url` instead of `domain`.
-Example: url("http://my-server.local:8080/") */
-@-moz-document domain("portainer.local") {
+/* Change the following domain to match your Portainer URL. */
+@-moz-document url-prefix("http://portainer.local:80/") {
     @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
 
     body {
