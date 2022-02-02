@@ -10,7 +10,9 @@
 
 No major changes, only created a blue-tinted palette for better contrast and less eyestrain than the default dark colors.
 
-Font changed to [Work Sans](https://fonts.google.com/specimen/Work+Sans?category=Sans+Serif,Monospace&query=work) for improved readability.
+Font changed to [Inter](https://fonts.google.com/specimen/Inter) for improved readability.
+
+Monospace font changed to [Fira Code](https://fonts.google.com/specimen/Fira+Code).
 
 
 ## Installing
