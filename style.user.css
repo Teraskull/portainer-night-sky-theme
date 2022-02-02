@@ -6,16 +6,21 @@
 @supportURL   https://github.com/Teraskull/portainer-night-sky-theme/issues
 @updateURL    https://github.com/Teraskull/portainer-night-sky-theme/raw/master/style.user.css
 @author       Teraskull
-@version      1.0.0
+@version      1.0.1
 @preprocessor stylus
 ==/UserStyle== */
 
 /* Change the following domain to match your Portainer URL. */
 @-moz-document url-prefix("http://portainer.local:80/") {
-    @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
     body {
-        font-family: Work Sans;
+        font-family: Inter;
+    }
+    
+    pre, code {
+        font-family: 'Fira Code', monospace;
     }
 
     html {
@@ -58,6 +63,10 @@
     .label-default {
         color: #b4b4b4;
         background-color: rgba(167, 167, 167, 0.2);
+    }
+    
+    .log_viewer {
+        color: var(--grey-8);
     }
 
     .datatable .actionBar {
