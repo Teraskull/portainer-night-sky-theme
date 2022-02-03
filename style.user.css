@@ -12,8 +12,8 @@
 
 /* Change the following domain to match your Portainer URL. */
 @-moz-document url-prefix("http://portainer.local:80/") {
-    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css');
 
     body {
         font-family: Inter;
