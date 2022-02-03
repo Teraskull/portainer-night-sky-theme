@@ -17,10 +17,14 @@
 
     body {
         font-family: Inter;
+        /* https://rsms.me/inter/#features */
+        font-feature-settings: "calt", "cpsp", "cv02", "cv03", "cv04", "cv10";
     }
     
     pre, code {
         font-family: 'Fira Code', monospace;
+        /* https://github.com/tonsky/FiraCode#whats-in-the-box */
+        font-feature-settings: "zero", "ss04", "cv27", "cv30", "cv31";
     }
 
     html {
